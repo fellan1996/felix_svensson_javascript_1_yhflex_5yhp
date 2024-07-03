@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css"
+      rel="stylesheet"
+    />
+    <title>Grid.js Hello World</title>
+  </head>
+  <body>
+    <h1>Grid.js Hello World</h1>
+    <button id="new-search" hidden>New search</button>
+    <form id="form">
+      <select name="search by" id="select-search-by">
+        <option value="name" selected>search by name</option>
+        <option value="lang">search by language</option>
+      </select>
+      <input type="text" placeholder="search..." required />
+      <button type="submit">Get data</button>
+    </form>
+
+    <div id="wrapper"></div>
+    <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+
+    <script src="js/script.js" type="module"></script>
+  </body>
+</html>
